@@ -1,23 +1,17 @@
-# Morphing Page Transition
+# Expanding Bar Menus
 
-A page transition where one SVG path is morphed into another.
+An experimental tab-like navigation that expands a content area when clicked. 
 
-![Morphing Page Transition](https://tympanus.net/codrops/wp-content/uploads/2017/08/MorphingPageTransition_Featured.jpg)
+[Article on Codrops](https://tympanus.net/codrops/?p=30460)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=31976)
-
-[Demo](https://tympanus.net/Development/MorphingPageTransition/)
-
-This demo is kindly sponsored by [PageCloud](https://goo.gl/rdSoMC), the website builder you'll love to use.
+[Demo](http://tympanus.net/Development/ExpandingBarMenus/)
 
 ## Credits
 
-- [anime.js](http://anime-js.com/) by Julian Garnier
-- Images by [Unsplash.com](http://unsplash.com)
-- [Charming.js](https://github.com/yuanqing/charming) by Yuan Qing
-- [imagesLoaded](http://imagesloaded.desandro.com/) by Dave DeSandro
-- [Black Grunge set](http://www.freepik.com/free-vector/black-grunge-set_1165653.htm) by Freepik
-- [City Skylines](http://www.freepik.com/free-vector/city-skylines_787669.htm) by Freepik
+- Artwork copyright by [RuleByArt](https://creativemarket.com/RuleByArt). Purchase on [Creative Market](https://creativemarket.com/RuleByArt/468537-Flight).
+- [Anime.js](http://anime-js.com/) by Julian Garnier
+- [Enquire.js](http://wicky.nillia.ms/enquire.js/) by Nick Williams
+- Photography from [https://unsplash.com](Unsplash.com)
 
 ## License
 This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used.
