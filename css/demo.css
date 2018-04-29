@@ -361,8 +361,9 @@ a:focus {
 }
 
 .demo-3 {
-	color: #fc0;
-	background: #2a3137;
+	color: #fff;
+	background: #161a1d;
+	font-family: 'Walter Turncoat', serif;
 }
 
 .demo-3 a {
@@ -401,6 +402,7 @@ a:focus {
 }
 
 .demo-3 .codrops-header__tagline {
+	font-family: 'Walter Turncoat', serif;
 	font-size: 1.5em;
 	margin: 0.25em 0 0 -0.3em;
 }
@@ -460,13 +462,13 @@ a:focus {
 }
 
 .demo-3 .codrops-header::after {
-	content: '03';
+	content: '+';
 	font-size: 5em;
 	font-weight: bold;
 	position: absolute;
 	top: 0;
 	left: -40px;
-	color: #fff;
+	color: #f00;
 }
 
 .box {

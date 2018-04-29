@@ -3,15 +3,17 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Expanding Bar Menus | Demo 3 | Codrops</title>
+		<title>Anto y Mario casam-se</title>
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
-		<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Walter+Turncoat" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+		<link rel="stylesheet" href="css/morphext.css">
 		<script>document.documentElement.className = 'js';</script>
 	</head>
 	<body class="demo-3">
@@ -40,18 +42,9 @@
 		<main class="view">
 			<div class="content">
 				<header class="codrops-header">
-					<div class="codrops-links">
-						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/StackMotionHoverEffects/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
-						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=30460" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
-					</div>
-					<h1 class="codrops-header__title">400mm</h1>
-					<span class="codrops-header__deco">shutter angle</span>
-					<p class="codrops-header__tagline">expanding bar menus</p>
-					<nav class="demos">
-						<a class="demo" href="index.html">1</a>
-						<a class="demo" href="index2.html">2</a>
-						<a class="demo demo--current" href="index3.html">3</a>
-					</nav>
+					<h1 class="codrops-header__title">anto y mario</h1>
+					<span class="codrops-header__deco">more information soon.</span>
+					<p class="codrops-header__tagline" id="js-rotating">casam-se, are getting married, se casan</p>
 				</header>
 			</div>
 			<button class="btn btn--menu">
@@ -95,5 +88,15 @@
 		<script src="js/enquire.min.js"></script>
 		<script src="js/tabsnav.js"></script>
 		<script src="js/demo3.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+		<script src="js/morphext.min.js"></script>
+		<script>
+            $("#js-rotating").Morphext({
+                animation: "fadeInDown",
+                complete: function () {
+                    console.log("This is called after a phrase is animated in! Current phrase index: " + this.index);
+                }
+            });
+        </script>
 	</body>
 </html>
