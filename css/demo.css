@@ -475,9 +475,8 @@ a:focus {
 
 .box {
 	position: relative;
-	width: 40vw;
 	min-width: 300px;
-	height: calc(90vh - 120px);
+	height: calc(90vh - 100px);
 	margin-top: 40px;
 	background-size: cover;
 	background-position: 50% 0;
